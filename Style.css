@@ -1,0 +1,335 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+body{
+    background-color:#fff;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url(https://media2.thrillophilia.com/images/photos/000/166/874/original/1564814315_shutterstock_472363696.jpg?width=975&height=600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#2C7865;
+    padding: 22px;
+    /* box-shadow: 0px 2px 6px 2px rgb(195, 193, 193); */
+    /* color: white; */
+    z-index: 999;
+
+}
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.595);
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    margin-right: 63px;
+    margin-top: 6px;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 33px;
+    color: #A5DD9B;
+}
+#logo{
+  color: #fff;
+}
+ul li button{
+    width: 115px;
+    height: 33px;
+    background-color: #90D26D;
+    color: white;
+    font-size: 18px;
+    padding: 0px 5px;
+    border: 1px solid  #90D26D;
+    border-radius:0.15rem;
+}
+button{
+    border: 1px solid  rgb(18, 19, 18);
+    border-radius:0.15rem;
+    background-color: #90D26D;
+}
+#fr{
+  border-radius: 50px;
+  
+}
+
+ ul li button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: #90D26D;
+    cursor: pointer;
+ }
+  ul li a:hover{
+    color: #90D26D;
+
+  }
+
+  /* main */
+
+  .home{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+  }
+  .home .homeText{
+    margin-top: 200px;
+    margin-right: 500px;
+    margin-left: 50px;
+  }
+  .homeText h1{
+    font-size: 85px;
+    color: #A5DD9B;
+  }
+  .homeText h3{
+    margin-top: 22px;
+    font-size: 3rem;
+    color: #A5DD9B;
+  }
+  .homeText p{
+    margin-top: 22px;
+    color: silver;
+  }
+  .homeText button{
+    margin-top: 22px;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: #90D26D;
+    color: white;
+    border: none;
+  }
+  .homeText button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: #90D26D;
+
+  }
+  .scroll{
+    position: fixed;
+    color: #90D26D;
+    left: 20%;
+    z-index: 999;
+    top: 90%;
+
+  }
+
+  .head{
+    text-align: center;
+    margin: 75px 95px;
+    font-size: 20px;
+  }
+  .head span{
+    color: #90D26D;
+  }
+  .ourProgram{
+    display: flex;
+    justify-content: center;
+  }
+  .ourProgram .crd{
+    margin-inline: 22px;
+    text-align: center;
+  }
+  .ourProgram .crd img:hover{
+    width: 103%;
+  }
+
+  /* plan */
+  section{
+    background-color: #ffffff;
+    height: 625px;
+    margin-top: 50px;
+  }
+  hr{
+    height: 1px;
+    background-color: #fff;
+    border: rgb(60, 60, 60) ;
+    box-shadow: 3px 0px 0px 0px rgb(188, 188, 188);
+    margin-bottom: 6%;
+  }
+  .ourPlan{
+    display: flex;
+    justify-content: center;
+  }
+  .ourPlan .box{
+    width: 300px;
+    height: 350px;
+    padding: 4px;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    margin-inline: 22px;
+  }
+  
+  .box:hover{
+    transition: 0.2s ease;
+    width: 310px;
+    height: 350px;
+    background-color: rgb(36, 35, 35);
+    font-size: 19px;
+    cursor: pointer;
+
+  }
+  #b1{
+    background-image: url(https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/06/04/Pictures/ghazipur_8d109928-8693-11e9-8812-e0f6aa62d95d.jpg);
+    background-size: 500px 360px;
+    
+
+  }
+  .contain{
+    display: flex;
+    color: #000;
+    margin: 10px 30px;
+  }
+  .contain p{
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 10%;
+    padding-right: 600px;
+    font-size: 1.45rem;
+  }
+  .contain img{
+    position: relative;
+    height: 380px;
+    margin-top: 10%;
+    margin-left: 850px;
+  }
+  .contain2{
+    display: flex;
+    color: #000;
+    margin: 10px 30px;
+  }
+  .contain2 p{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 5%;
+    padding-right: 100px;
+    font-size: 1.4rem;
+  }
+  .contain2 img{
+    position: relative;
+    height: 380px;
+    margin-top: 5.5%;
+    margin-right: 850px;
+  }
+  /* blog */
+  .ourBlog{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0px 50px;
+  }
+  .ourBlog .blogbox{
+    width: 300px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: rgb(42, 41, 41);
+     
+  }
+  .blogbox img{
+    width: 100%;
+    height:60%;
+  }
+  .blogbox p{
+    margin-top: 10px;
+    padding: 5px 5px 5px;
+  }
+  .blogText a{
+    text-decoration: none;
+    width: 90px;
+    padding: 2px 0px 2px 10px;
+    background-color: #90D26D;
+    color: white;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 2.5px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .blogText{
+    margin-top: 11px;
+    margin-left: 6px;
+  }
+  .blogText h3{
+    margin-top: 11px;
+    margin-left: 6px;
+  }
+
+  /* cantact */
+  .contactPage{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  
+  .contactPage img{
+    height:450px;
+    position: relative;
+    left:-80px;
+    top:-160px;
+    filter: opacity(70%);
+
+  }
+  .contact-us{
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    right:18%;
+
+  }
+  .con{
+    height:500px
+  }
+  .contact-us input{
+    width:350px;
+    height:38px;
+    display: block;
+    margin-top: 10px;
+    background-color: #565656;
+    border: none;
+    border-radius: 0.15rem;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+  }
+  .contact-us button{
+    width:370px;
+    height:35px;
+    font-size:1rem;
+    margin-left: 25%;
+    padding:5px 10px;
+  }
+  .contact-us button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: #90D26D;
+  }
+  .head h1 h2{
+    color: black;
+  }
+/* Footer */
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+  }
+  .footer .footerText{
+    margin-inline: 73px;
+    margin-top: 33px;
+  }
+  .footerText p{
+margin-top: 11px;
+color: silver;
+  }
